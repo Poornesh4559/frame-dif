@@ -1,0 +1,24 @@
+{
+    "name": "dif_dataflow_pipeline",
+    "description": "A Dataflow pipeline to ingest CSV data  to BigQuery.",
+    "parameters": [
+        {
+            "name": "input",
+            "label": "Input file path",
+            "helpText": "GCS file path for the input CSV file."
+            
+        },
+        {
+            "name": "output",
+            "label": "BigQuery output table",
+            "helpText": "BigQuery table in the format dataset.table."
+            
+        },
+        {
+            "name": "config",
+            "label": "config file path",
+            "helpText": "GCS path for the config yaml file like config.yaml"
+            
+        }
+    ]
+}
