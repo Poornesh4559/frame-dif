@@ -1,4 +1,7 @@
-python dif_demo.py --runner DirectRunner --temp_location gs://us-bkt-data/df_temp --input gs://us-bkt-data/absence_demo.csv --output dataflow-d:dif_sink.absence --congif gs://us-bkt-data/config.yaml
+python dif_csv_to_bq.py --runner DirectRunner --temp_location gs://us-bkt-data/df_temp --input gs://us-bkt-data/absence_demo.csv --output dataflow-d:dif_sink.absence --config gs://us-bkt-data/config.yaml
+
+------------------------------------------
+python dif_csv_to_bq.py --runner DirectRunner --temp_location gs://us-bkt-data/df_temp --input gs://us-bkt-data/demodata-dif.csv --output dataflow-d:dif_sink.workday --config gs://us-bkt-data/workday_config.yaml
 
 
 ------------------------------------
