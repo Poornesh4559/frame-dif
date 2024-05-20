@@ -1,0 +1,212 @@
+schema:
+  fields:
+    - name: Report_Effective_Date
+      type: STRING
+      mode: NULLABLE
+    - name: Employee_ID
+      type: STRING
+      mode: NULLABLE
+    - name: Worker_WID
+      type: STRING
+      mode: NULLABLE
+    - name: Date_of_Birth
+      type: STRING
+      mode: NULLABLE
+    - name: Gender
+      type: STRING
+      mode: NULLABLE
+    - name: Home_City
+      type: STRING
+      mode: NULLABLE
+    - name: Home_Postal_Code
+      type: STRING
+      mode: NULLABLE
+    - name: Location_WID
+      type: STRING
+      mode: NULLABLE
+    - name: Location_Code
+      type: STRING
+      mode: NULLABLE
+    - name: GID
+      type: STRING
+      mode: NULLABLE
+    - name: Payroll_ID
+      type: STRING
+      mode: NULLABLE
+    - name: Contract_Start_Date
+      type: STRING
+      mode: NULLABLE
+    - name: Contract_End_Date
+      type: STRING
+      mode: NULLABLE
+    - name: Contract_Type
+      type: STRING
+      mode: NULLABLE
+    - name: Employee_Status
+      type: STRING
+      mode: NULLABLE
+    - name: Weekly_Schedule_Hours
+      type: STRING
+      mode: NULLABLE
+    - name: Time_Type
+      type: STRING
+      mode: NULLABLE
+    - name: Job_Profile_WID
+      type: STRING
+      mode: NULLABLE
+    - name: Job_Profile_ID
+      type: STRING
+      mode: NULLABLE
+    - name: Position_ID
+      type: STRING
+      mode: NULLABLE
+    - name: Position_Title
+      type: STRING
+      mode: NULLABLE
+    - name: Manager_WID
+      type: STRING
+      mode: NULLABLE
+    - name: Pay_Grade
+      type: STRING
+      mode: NULLABLE
+    - name: Pay_Grade_Profile
+      type: STRING
+      mode: NULLABLE
+    - name: Pay_Range_Minimum
+      type: STRING
+      mode: NULLABLE
+    - name: Pay_Range_Maximum
+      type: STRING
+      mode: NULLABLE
+    - name: Salary_Currency
+      type: STRING
+      mode: NULLABLE
+    - name: Annual_Salary
+      type: STRING
+      mode: NULLABLE
+    - name: FTE
+      type: STRING
+      mode: NULLABLE
+    - name: Pay_Group
+      type: STRING
+      mode: NULLABLE
+    - name: Worker_Type
+      type: STRING
+      mode: NULLABLE
+    - name: Worker_Sub_Type
+      type: STRING
+      mode: NULLABLE
+    - name: Supervisory_Organization_WID
+      type: STRING
+      mode: NULLABLE
+    - name: Supervisory_Org_Ref_ID
+      type: STRING
+      mode: NULLABLE
+    - name: Cost_Center_WID
+      type: STRING
+      mode: NULLABLE
+    - name: Cost_Center_Code
+      type: STRING
+      mode: NULLABLE
+    - name: Hire_Date
+      type: STRING
+      mode: NULLABLE
+    - name: Original_Hire_Date
+      type: STRING
+      mode: NULLABLE
+    - name: Continuous_Service_Date
+      type: STRING
+      mode: NULLABLE
+    - name: Is_Manager
+      type: STRING
+      mode: NULLABLE
+    - name: CF_LRV_Agile_Working_on_Worker
+      type: STRING
+      mode: NULLABLE
+    - name: Assignment_Status
+      type: STRING
+      mode: NULLABLE
+    - name: Contract_Reason
+      type: STRING
+      mode: NULLABLE
+    - name: Employing_Company
+      type: STRING
+      mode: NULLABLE
+    - name: Involuntary_Termination
+      type: STRING
+      mode: NULLABLE
+    - name: termination_date
+      type: STRING
+      mode: NULLABLE
+    - name: termination_primary
+      type: STRING
+      mode: NULLABLE
+    - name: Notional_Salary
+      type: STRING
+      mode: NULLABLE
+    - name: Ready_For
+      type: STRING
+      mode: NULLABLE
+    - name: Ready_Now_Assessment
+      type: STRING
+      mode: NULLABLE
+    - name: Ready_Now_Completed_Rating
+      type: STRING
+      mode: NULLABLE
+    - name: Ready_Now_Assessment_Date
+      type: STRING
+      mode: NULLABLE
+    - name: Retention_Risk_Of_Loss
+      type: STRING
+      mode: NULLABLE
+    - name: Retention_Risk_Impact_Of_Loss
+      type: STRING
+      mode: NULLABLE
+    - name: Retention_Risk
+      type: STRING
+      mode: NULLABLE
+    - name: Length_of_Time_Ready_Now
+      type: STRING
+      mode: NULLABLE
+    - name: Regretted_Leaver
+      type: STRING
+      mode: NULLABLE
+    - name: GPS_Plan_Code
+      type: STRING
+      mode: NULLABLE
+    - name: GPS_Plan_Description
+      type: STRING
+      mode: NULLABLE
+    - name: First_Name
+      type: STRING
+      mode: NULLABLE
+    - name: Last_Name
+      type: STRING
+      mode: NULLABLE
+    - name: Pension_Scheme_Indicator
+      type: STRING
+      mode: NULLABLE
+    - name: DB_pension_flag_
+      type: STRING
+      mode: NULLABLE
+    - name: Harmonised_Grade
+      type: STRING
+      mode: NULLABLE
+    - name: Heritage_Cost_Centre_ID
+      type: STRING
+      mode: NULLABLE
+    - name: LBCM_Flag
+      type: STRING
+      mode: NULLABLE
+    - name: Line_Manager_First_Name
+      type: STRING
+      mode: NULLABLE
+    - name: Line_Manager_Last_Name
+      type: STRING
+      mode: NULLABLE
+    - name: Platform
+      type: STRING
+      mode: NULLABLE
+    - name: Custom_Company
+      type: STRING
+      mode: NULLABLE
